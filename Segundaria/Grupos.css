@@ -1,0 +1,22 @@
+.myDiv { 
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 100px;
+    margin-left: 550px;
+    background-color: white(255, 255, 255);
+}
+.myDiv2 { 
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 100px;
+    margin-left: 450px;
+    background-color: white(255, 255, 255);
+}
+    
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    color: black;
+    text-align: center;
+      
+}
