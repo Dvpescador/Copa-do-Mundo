@@ -1,0 +1,33 @@
+div { 
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 425px;
+    margin-left: 425px;
+    background-color: white(255, 255, 255);
+}
+  
+
+    body {
+ background-color: #111;
+ background-image:  url("??????");
+ max-height: 75vh;
+ padding-top: 100px;
+ padding-bottom: 70px
+}
+
+    h1   {
+ color:white;
+ text-align: center;
+}
+
+p {
+color:white
+}
+
+table, th, td {
+  border: 1px solid gray;
+  border-collapse: collapse;
+  color: aliceblue;
+  text-align: center
+
+}
