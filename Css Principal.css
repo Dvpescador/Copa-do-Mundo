@@ -1,12 +1,10 @@
 body {
-    background-color: #111;
+    background-color: white;
     margin:0;
   }
   
-       h1   {
-    color:white;
-    text-align: center;
-    margin:200px
+  hr{
+    color:  rgba(255, 217, 0, 0.705) ;
   }
   
        ul {
@@ -33,7 +31,7 @@ body {
   }
   
        li a:hover, .dropdown:hover .dropbtn {
-    background-color: red;
+    background-color: rgba(255, 217, 0, 0.705);
   }
   
   li.dropdown {
@@ -62,3 +60,47 @@ body {
   .dropdown:hover .dropdown-content {
     display: block;
   }
+
+  video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: center;
+       object-position: center;
+  }
+
+  header {
+    background:tan;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+    padding: 0.5em;
+  }
+  nav a {
+      color: inherit;
+      padding: 0 12px;
+      text-decoration: none;
+  }
+  .overlay {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .overlay h2 {
+    background: none;
+    color: white;
+    font-weight: 600;
+    font-size: 500%;
+    margin: 2rem 3rem 0;
+    mix-blend-mode: lighten;
+    padding: 5px 15px;
+    text-align: center;
+}
