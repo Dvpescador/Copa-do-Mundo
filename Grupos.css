@@ -15,7 +15,7 @@
     
 table, th, td {
     border: 1px solid white;
-    border-collapse: collapse;
+    border-radius: 10px;
     color: white;
     text-align: center;
       
@@ -23,12 +23,14 @@ table, th, td {
 
 body{
 background-color: #111;
+background-image: linear-gradient(#9a0c34, #310010);
 margin:0;
 }
 
 p   {
     color:white;
     text-align: center;
+    padding-top:3%;
 }
 
 ul {
@@ -55,7 +57,7 @@ ul {
   }
   
        li a:hover, .dropdown:hover .dropbtn {
-    background-color: red;
+    background-color: rgba(255, 217, 0, 0.705);
   }
   
   li.dropdown {
@@ -83,4 +85,9 @@ ul {
   
   .dropdown:hover .dropdown-content {
     display: block;
+  }
+
+  img {
+    height:36px;
+    width:60px;
   }
