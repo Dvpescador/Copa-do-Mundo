@@ -5,34 +5,33 @@ div {
     margin-left: 425px;
     background-color: white(255, 255, 255);
 }
-  
-
     body {
  margin:0;
- background-color: #111;
- background-image:  url("??????");
- max-height: 75vh;
- padding-top: 100px;
- padding-bottom: 70px;
+ background-color: black;
+ background-image: url("Imagens/AlJanoub.jpg") ;
+ background-repeat: no-repeat;
+ background-size: 100%;
+ background-position-x: 0%;
+ background-position-y: 0%;
 }
-
     h1   {
+  
  color:white;
  text-align: center;
+ margin-top: 20%;
+ margin-bottom: 19%;
 }
-
 p {
+
 color:white
 }
-
 table, th, td {
   border: 1px solid gray;
-  border-collapse: collapse;
-  color: aliceblue;
+  border-radius: 10px;
+  color: white;
   text-align: center
 
 }
-
 ul {
   list-style-type: none;
   margin: 0;
@@ -43,7 +42,6 @@ ul {
   top: 0;
   width: 100%;
 }
-
     li {
   float: left;
 }
@@ -57,7 +55,7 @@ ul {
 }
 
      li a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
+  background-color: rgba(255, 217, 0, 0.705);
 }
 
 li.dropdown {
@@ -85,4 +83,8 @@ li.dropdown {
 
 .dropdown:hover .dropdown-content {
   display: block;
+}
+img {
+  height:36px;
+  width:60px;
 }
