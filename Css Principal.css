@@ -1,5 +1,7 @@
 body {
     background-color: white;
+    background-image: url('Imagens/WorldCup.gif');
+    background-size: 100%;
     margin:0;
   }
   
@@ -13,9 +15,6 @@ body {
     padding: 0;
     overflow: hidden;
     background-color: #581845;
-    position: fixed;
-    top: 0;
-    width: 100%;
   }
   
       li {
