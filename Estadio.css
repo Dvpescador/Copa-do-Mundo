@@ -14,13 +14,21 @@ div {
  background-position-x: 0%;
  background-position-y: 0%;
 }
-    h1   {
+.myh1   {
   
  color:white;
  text-align: center;
- margin-top: 20%;
- margin-bottom: 19%;
+ margin-top: 19%;
+ margin-bottom: 15%;
 }
+
+h1   {
+  
+  color:white;
+  text-align: center;
+  margin-top: 10%;
+  margin-bottom: 9%;
+ }
 p {
 
 color:white
@@ -38,9 +46,7 @@ ul {
   padding: 0;
   overflow: hidden;
   background-color: #581845;
-  position: fixed;
-  top: 0;
-  width: 100%;
+
 }
     li {
   float: left;
